@@ -40,7 +40,7 @@ const Product = ({ product }) => {
       </div>
       {/* category & title & price  */}
       <div>
-        <div className="text-sm capitalize text-gray-500">
+        <div className="text-sm capitalize text-gray-500 mb-1">
           {product.category}
         </div>
         <Link to={`product/${product.id}`}>
