@@ -16,7 +16,6 @@ const Home = () => {
       item.category === "women's clothing" || item.category === "men's clothing"
     );
   });
-  console.log(fitledProducts);
 
   return (
     <div>
